@@ -86,7 +86,7 @@ body.scale-cv {
 /*========== Font size variables to scale cv ==========*/
 
 /*========== Generate PDF button ==========*/
-.generate-pdf {
+/* .generate-pdf {
   display: none;
   position: absolute;
   top: 2.2rem;
@@ -94,7 +94,7 @@ body.scale-cv {
   font-size: 1.2rem;
   color: var(--text-color);
   cursor: pointer;
-}
+} */
 /*========== Classes modified to reduce size and print on A4 sheet ==========*/
 .scale-cv .change-theme,
 .scale-cv .generate-pdf {
@@ -167,11 +167,11 @@ body.scale-cv {
   gap: 0.25rem;
 }
 
-.experience__description{
+.experience__description {
   margin-bottom: 10px;
 }
 
-.education__year{
+.education__year {
   margin-bottom: 10px;
 }
 
@@ -194,8 +194,8 @@ body {
 @media (min-width: 968px) {
   body {
     background: var(--body-color);
-  /* background: linear-gradient(to right top, #fdfcfc, #edf0e9) !important; */
-  /* background-color: #212121;  */
+    /* background: linear-gradient(to right top, #fdfcfc, #edf0e9) !important; */
+    /* background-color: #212121;  */
   }
 }
 body {
@@ -269,9 +269,9 @@ img {
   align-items: center;
 }
 
-.skills__data{
-margin-bottom: 15px;
-/* gap: 50px */
+.skills__data {
+  margin-bottom: 15px;
+  /* gap: 50px */
 }
 
 @media (max-width: 968px) {
@@ -644,18 +644,18 @@ margin-bottom: 15px;
     margin-left: 1.5rem;
   }
 
-  .skills__content{
-  grid-template-columns: repeat(3, 1fr);
-}
+  .skills__content {
+    grid-template-columns: repeat(3, 1fr);
+  }
 
-.interests__container {
-  grid-template-columns: repeat(3, 1fr);
-  margin-top: var(--mb-2);
-}
+  .interests__container {
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: var(--mb-2);
+  }
 
-.languages__content {
-  grid-template-columns: repeat(5, 1fr);
-}
+  .languages__content {
+    grid-template-columns: repeat(5, 1fr);
+  }
 
   /* .experience__description{
     margin-top: -50px;

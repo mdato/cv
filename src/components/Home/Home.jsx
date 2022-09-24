@@ -15,22 +15,7 @@ const Home = () => {
           </h1>
           <h3 className="home__profession"> {homeData.homeProfession}</h3>
           <img src={homeData.qr} className="qr" alt="" />
-
-          {/* <div>
-            <a href="./assets/pdf/ResumeCv.pdf" className="home__button-movil">
-              Dowload
-            </a>
-          </div> */}
         </div>
-        {/* Home Information */}
-        {/* <div className="home__address bd-grid">
-          {homeData.homeInformation.map((data, i) => (
-            <span className="home__information" key={i}>
-              <i className={`home__icon bx ${data.icon}`} />
-              {data.text}
-            </span>
-          ))}
-        </div> */}
       </div>
       {/* Theme change button */}
       <i
@@ -39,16 +24,6 @@ const Home = () => {
         title="Theme"
         id="theme-button"
       />
-      {/* Button For PDF */}
-      {/* <a
-        className="generate-pdf"
-        href="../../assets/light.pdf"
-        target="_blank"
-        download
-        id="resume-button"
-      >
-        <i className="bx bx-download" title="Generate PDF" />
-      </a> */}
     </section>
   );
 };

@@ -15,7 +15,6 @@ import Interests from "./components/Interests";
 const App = () => {
   const [isVisible, setIsVisible] = useState(true);
 
-  // Show button when page is scorlled upto given distance
   const toggleVisibility = () => {
     if (window.pageYOffset > 50) {
       setIsVisible(true);
@@ -24,8 +23,6 @@ const App = () => {
     }
   };
 
-  // Set the top cordinate to 0
-  // make scrolling smooth
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
@@ -38,14 +35,12 @@ const App = () => {
   }, []);
   return (
     <>
-      {/*========== HEADER ==========*/}
       <Header />
       <Main>
         <Left>
           <Home />
           <Social />
           <Profile />
-
         </Left>
         <Right>
           <Education />
@@ -66,6 +61,6 @@ const App = () => {
       )}
     </>
   );
-}
+};
 
 export default App;

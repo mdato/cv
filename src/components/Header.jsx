@@ -1,10 +1,9 @@
 import React, { useState } from "react";
-import { HeaderLinks, logoText, menuIcon} from "../cv";
-// import Scrollspy from "react-scrollspy";
+import { HeaderLinks, logoText, menuIcon } from "../cv";
 
 const Header = () => {
   const [showNav, setShowNav] = useState(false);
- 
+
   return (
     <header className="l-header" id="header">
       <nav className="nav bd-container">
@@ -18,7 +17,11 @@ const Header = () => {
           <ul className="nav__list">
             {HeaderLinks.map((link, i) => (
               <li className="nav__item" key={i}>
-                <a href={`#${link.linkID}`} onClick={()=> setShowNav(false)} className="nav__link">
+                <a
+                  href={`#${link.linkID}`}
+                  onClick={() => setShowNav(false)}
+                  className="nav__link"
+                >
                   <i className={`nav__icon bx ${link.boxIcon}`} />
                   {link.linkText}
                 </a>

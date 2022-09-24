@@ -1,14 +1,7 @@
-import React from 'react'
+import React from "react";
 
-const Left = ({children}) => {
-    return (
-      
-            <div className="resume__left">
-                {children}
-            </div>
-     
+const Left = ({ children }) => {
+  return <div className="resume__left">{children}</div>;
+};
 
-    )
-}
-
-export default Left
+export default Left;

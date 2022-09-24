@@ -1,15 +1,8 @@
 import homeImage from "./assets/me.jpg";
 import qr from "./assets/qr.jpg";
 
-
-// ========================== Header Data
-const headerIds = [
-  "home",
-  "profile",
-  "education",
-  "skills",
-  "experience",
-];
+// ========================== Header
+const headerIds = ["home", "profile", "education", "skills", "experience"];
 const HeaderLinks = [
   {
     linkText: "Home",
@@ -36,15 +29,9 @@ const HeaderLinks = [
     linkID: "experience",
     boxIcon: "bx-briefcase-alt",
   },
-    // {
-    //   linkText: "References",
-    //   linkID: "references",
-    //   boxIcon: "bx-link-external",
-    // },
 ];
 
-//  ===================================== Left Section Content =============================== //
-// ========================== Home Data
+// ========================== Home
 const homeData = {
   homeImage,
   homeTitle1: "Marcelo",
@@ -54,7 +41,7 @@ const homeData = {
   // s
 };
 
-// ========================== Social Links
+// ========================== Social
 const socialLinks = {
   title: "Social",
   links: [
@@ -96,10 +83,9 @@ const socialLinks = {
   ],
 };
 
-// ========================== Profile Data
+// ========================== Profile
 const profileData = {
   title: "Profile",
-  //   Here you can add as much paragraph as you can
   descriptions: [
     `Full Stack Developer with over 10 years of experience in Javascript and their frameworks/libraries: React, Next, Vue, Bootstrap, Tailwinds, Material-UI, etc.`,
     `I have made a lot of websites and collaborated for several start-ups.`,
@@ -108,7 +94,7 @@ const profileData = {
   ],
 };
 
-// ========================= Education Data
+// ========================= Education
 const educationData = {
   title: "Education",
   educations: [
@@ -130,7 +116,6 @@ const educationData = {
 // ========================= Skills Data
 const skillsData = {
   title: "Skills",
-  //   Here you can add further skills array
   skills: [
     [`Html`],
     [`Css`],
@@ -144,19 +129,12 @@ const skillsData = {
     [`Material`],
     [`Bootstrap`],
     [`Chakra`],
-
-    // [`Html`, `Css`, `Saas`],[`React`,`Typescript`, `Javascript`],
-    // [`Next`, `Vue`,`Express`],[,`MongoDb`,`Tailwind`, `Bootstrap`],
-    // [`Material-Ui`, `Chakra-Ui`]
-    
   ],
 };
 const logoText = "BACode";
 const menuIcon = "bx-grid-alt";
 
-//  ===================================== Right Section Content =============================== //
-
-// ========================= Experience Data
+// ========================= Experience
 const experienceData = {
   title: "Experience",
   experiences: [
@@ -170,25 +148,27 @@ const experienceData = {
     {
       title: "BACode (Javascript Programmer)",
       company: "2021 - Present",
-      describe: "For some time now, I have been offering customized versions to language schools, some of my apps for learning and practicing foreign languages.",
+      describe:
+        "For some time now, I have been offering customized versions to language schools, some of my apps for learning and practicing foreign languages.",
       line: true,
     },
     {
       title: "Hamelin (Partner and Founder)",
       company: "2008 - 2017",
-      describe: "Founder of Hamelin, a children's toy distributor. I designed the website, and focused especially on the management of the database of products, customers and suppliers.",
+      describe:
+        "Founder of Hamelin, a children's toy distributor. I designed the website, and focused especially on the management of the database of products, customers and suppliers.",
       line: false,
     },
   ],
 };
 
-// ========================= Languages Data
+// ========================= Languages
 const languageData = {
   title: "Languages",
   languages: ["Spanish", "English", "Italian", "French", "Portuguese"],
 };
 
-// ========================= INTERESTS Data
+// ========================= Interest
 const interestsData = {
   title: "INTERESTS",
   interests: [
