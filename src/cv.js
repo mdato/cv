@@ -87,9 +87,9 @@ const socialLinks = {
 const profileData = {
   title: "Profile",
   descriptions: [
-    `Full Stack Developer with over 10 years of experience in Javascript and their frameworks/libraries: React, Next, Vue, Bootstrap, Tailwinds, Material-UI, etc.`,
+    `Full Stack Developer with over 10 years of experience in Javascript and their frameworks / libraries: React, Next, Vue, Bootstrap, Tailwinds, Material-UI, etc.`,
     `I have made a lot of websites and collaborated for several start-ups.`,
-    `Creator of LingBodie, an app to acquire vocabulary, and I am also the author of DerDieDas, an app for learning German articles. Both are free.`,
+    `Creator of LingBodie, a free online app to acquire vocabulary.`,
     `I have developed a variety of applications for windows in the early 2000s, like Bodie's Calendar, and others..., `,
   ],
 };
