@@ -87,10 +87,13 @@ const socialLinks = {
 const profileData = {
   title: "Profile",
   descriptions: [
-    `Full Stack Developer with over 10 years of experience in Javascript and their frameworks / libraries: React, Next, Vue, Bootstrap, Tailwinds, Material-UI, etc.`,
-    `I have made a lot of websites and collaborated for several start-ups.`,
-    `Creator of LingBodie, a free online app to acquire vocabulary.`,
-    `I have developed a variety of applications for windows in the early 2000s, like Bodie's Calendar, and others..., `,
+    `Full Stack Developer with over 10 years of experience in JavaScript and its frameworks and libraries, including React, Next.js, and Express.js.<br><br>Skilled in using CSS frameworks such as Bootstrap and Tailwind CSS, and adept at leveraging Astro for building fast, content-focused websites.<br><br>Proficient in utilizing Node.js, a JavaScript runtime, for server-side development, and experienced with MongoDB, a NoSQL database.<br><br>`,
+    
+    `I have made a lot of websites and collaborated for several start-ups.<br><br>`,
+    
+    `Creator of LingBodie, a free online app to acquire vocabulary.<br><br>`,
+    
+    `I have developed a variety of applications for Windows in the early 2000s, like Bodie's Calendar, and others...`,
   ],
 };
 
@@ -119,16 +122,15 @@ const skillsData = {
   skills: [
     [`Html`],
     [`Css`],
-    [`Saas`],
+    [`Express`],
     [`Javascript`],
     [`Vue`],
     [`React`],
     [`Next`],
+    [`Astro`],
     [`MongoDb`],
     [`Tailwind`],
-    [`Material`],
     [`Bootstrap`],
-    [`Chakra`],
   ],
 };
 const logoText = "BACode";
@@ -139,17 +141,17 @@ const experienceData = {
   title: "Experience",
   experiences: [
     {
-      title: "Bodie Agency (Web Designer)",
+      title: "Independent Web Designer & Consultant",
       company: "2018 - PRESENT",
       describe:
-        "Founder of an independent design studio. I work together with a graphic designer. We offer design and branding services to a range of businesses, from fashion designer and blogger, to design agencies and creative professionals.",
+        "Providing design, web, and branding services to a diverse range of clients, including fashion designers, bloggers, design agencies, and creative professionals.",
       line: true,
     },
     {
-      title: "BACode (Javascript Programmer)",
-      company: "2021 - Present",
+      title: "Independent JavaScript Programmer",
+      company: "2021 - 2024",
       describe:
-        "For some time now, I have been offering customized versions to language schools, some of my apps for learning and practicing foreign languages.",
+        "Specialized in the development of customized software and applications for various language schools, focusing on foreign language learning and practice.",
       line: true,
     },
     {
