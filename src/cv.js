@@ -60,11 +60,11 @@ const socialLinks = {
       text: "LinkedIn",
       icon: "bxl-linkedin-square",
     },
-    {
-      link: "https://glitch.com/@marcelodato/",
-      text: "Glitch",
-      icon: "bx-brightness",
-    },
+    // {
+    //   link: "https://glitch.com/@marcelodato/",
+    //   text: "Glitch",
+    //   icon: "bx-brightness",
+    // },
     {
       link: "https://codepen.io/marcelodato/pens/",
       text: "Codepen",
@@ -149,7 +149,7 @@ const experienceData = {
     },
     {
       title: "Independent JavaScript Programmer",
-      company: "2021 - 2024",
+      company: "2018 - 2022",
       describe:
         "Specialized in the development of customized software and applications for various language schools, focusing on foreign language learning and practice.",
       line: true,
